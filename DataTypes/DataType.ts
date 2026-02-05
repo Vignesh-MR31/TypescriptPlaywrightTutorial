@@ -13,7 +13,7 @@ console.log(result);
 
 //Primitive Data type
 /* Number
-   String
+   string
    Boolean
    Null
    Undefined
@@ -41,9 +41,9 @@ console.log("Size:",size);
 
 console.log(typeof(price));
 
-//String data type
+//string data type
 /*
-String can be created using
+string can be created using
 1.SingeQuote('')
 2.DoubleQuote("")
 3.Backtick(``)
@@ -73,7 +73,7 @@ console.log(notAssignedValue);
 
 //Any datatype
 
-let value:any="String";
+let value:any="string";
 console.log(typeof(value));
 value=10;
 console.log(typeof(value));
@@ -90,7 +90,7 @@ data = 12345;
 console.log(data);
 data = true;
 console.log(data);
-data = "String2";
+data = "string2";
 console.log(data);
 
 //Void datatype

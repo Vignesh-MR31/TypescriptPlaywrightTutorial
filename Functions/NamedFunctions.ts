@@ -35,7 +35,7 @@ function addNumbers(...nums:number[]):number{
 
 console.log(addNumbers(1,2,3,4));
 
-function totalLength(...elements:(number | String)[]):number{
+function totalLength(...elements:(number | string)[]):number{
     return elements.length;
 }
 
@@ -44,7 +44,7 @@ console.log(totalLength(1,"test"));
 //Named function with optional parameters
 //Need to put ? in optional parameter
 
-function displayDetails(id:number,name:String,emailID?:String){
+function displayDetails(id:number,name:string,emailID?:string){
 
     console.log(`ID is ${id}`);
     console.log(`Name is ${name}`);

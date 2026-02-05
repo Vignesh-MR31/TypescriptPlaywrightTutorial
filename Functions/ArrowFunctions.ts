@@ -49,14 +49,14 @@ let productOfArray = (...numbers:number[]):number =>{
 
 console.log(productOfArray(7,11,56,5));
 
-let arrayLength = (...combination:(number | String)[]):number =>{
+let arrayLength = (...combination:(number | string)[]):number =>{
     return combination.length;
 }
 
 console.log(arrayLength("Vicky",18,"India",212));
 
 //Arrow function with optional parameters
-let details = (id:number,name:String,email?:String):void =>{
+let testerDetails = (id:number,name:string,email?:string):void =>{
     console.log(`ID is ${id}`);
     console.log(`Name is ${name}`);
     if(email!=undefined){
@@ -64,8 +64,8 @@ let details = (id:number,name:String,email?:String):void =>{
     }
 }
 
-details(11,"Tester01");
-details(12,"Tester03","Tester03@gmail.com");
+testerDetails(11,"Tester01");
+testerDetails(12,"Tester03","Tester03@gmail.com");
 
 //Arrow function with default parameters
 let discountValue = (price:number,rate:number=0.5):number =>{

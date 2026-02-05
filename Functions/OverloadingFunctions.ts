@@ -6,15 +6,15 @@ Step 3: calling a function
 
 //Example:1 - Different parameter Types(data types)
 
-function getInfo(id:number):String;
-function getInfo(name:String):String;
+function getInfo(id:number):string;
+function getInfo(name:string):string;
 
-function getInfo(param:number |String):String{
+function getInfo(param:number |string):string{
     if(typeof(param) == "number"){
         return `parameter is number, ${param}`;
     }
     else{
-        return `parameter is String, ${param}`;
+        return `parameter is string, ${param}`;
     }
 }
 
@@ -41,14 +41,14 @@ console.log(addNum(10,11,20));
 //Example:3 - Different return types
 
 function processInput(input:number):number;
-function processInput(input:String):String;
+function processInput(input:string):string;
 
-function processInput(input:number |String):String | number{
+function processInput(input:number |string):string | number{
     if(typeof(input) == "number"){
         return input*2;
     }
     else{
-        return `parameter is String, ${input}`;
+        return `parameter is string, ${input}`;
     }
 }
 
@@ -57,11 +57,11 @@ console.log(processInput("Test"));
 
 //Example:4 
 
-function details(name:String):String;
+function details(name:string):string;
 function details(age:number):number;
-function details(married:boolean):String;
+function details(married:boolean):string;
 
-function details(value:String | number | boolean):String | number{
+function details(value:string | number | boolean):string | number{
     if(typeof(value) == "string"){
         return `My name is ${value}`;
     }
@@ -69,7 +69,7 @@ function details(value:String | number | boolean):String | number{
         return 30-value;
     }
     else{
-        let result:String = value?"Not married":"Married";
+        let result:string = value?"Not married":"Married";
         return result;
     }
 }

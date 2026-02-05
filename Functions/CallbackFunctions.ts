@@ -1,11 +1,11 @@
 //A callback function is a function that is passed as an argument to another function and gets executed later
 
 //Callback function
-function showMessage(message:String):String{
+function showMessage(message:string):string{
     return message;
 }
 
-function empName(empName:String,callbackFunction:(message:String)=> void){
+function empName(empName:string,callbackFunction:(message:string)=> void){
     console.log(empName);
     console.log(callbackFunction("Hello"));
 }
