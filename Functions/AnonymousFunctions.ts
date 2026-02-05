@@ -11,7 +11,7 @@ let variable = function(parameter):returnType{
 variable() --->calling the function
 */
 
-let message = function():String{
+let message = function():string{
     return "Hi, Vicky";
 }
 
