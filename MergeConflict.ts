@@ -1,0 +1,1 @@
+//From MergeConflict.ts master branch
